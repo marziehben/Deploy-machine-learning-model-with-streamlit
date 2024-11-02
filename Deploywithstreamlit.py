@@ -39,17 +39,11 @@ print(metrics.classification_report(y_true['level'], y_pred=predict))
 print(type(X))
 print(type(y))
 
-# Visualize the dataframe in the Streamlit app
-st.write("""
-# Grade of Parts
-""")
-st.bar_chart(y)
 
-# Title
-st.title ("Hello Engineer")
+
 
 # Header
-st.header("Lets know about Quality Status") 
+st.header("Priority Control and Inspection") 
 
 
 # pickling the model 
